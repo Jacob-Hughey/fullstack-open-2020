@@ -48,7 +48,7 @@ const App = () => {
         }
     ]
 
-    const header = <MainHeader text="Web development curriculum" />
+    const header = <MainHeader key="0" text="Web development curriculum" />
 
     const allCourses = courses.map(currCourse =>
         <Course key={currCourse.id} course={currCourse} />
